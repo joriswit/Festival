@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Festival</string>
+    <string name="activity_name">Festival Solver</string>
+    <string name="action_solve">Solve</string>
+    <string name="action_solve_cancel">Cancel solving</string>
+    <string name="edit_wall">Wall</string>
+    <string name="edit_box">Box</string>
+    <string name="edit_target">Target</string>
+    <string name="edit_sokoban">Sokoban</string>
+    <string name="edit_space">Space</string>
+    <string name="back_to_edit_mode">Back to edit mode</string>
+    <string name="back_to_edit_mode_confirm">Are you sure you want to discard the current solution, and go back to edit mode?</string>
+    <string name="play_solution">Play solution animation</string>
+    <string name="pause_solution">Pause solution animation</string>
+    <string name="stop_solution">Stop solution animation</string>
+    <string name="current_solution_label_text">Solution:</string>
+    <string name="current_solution_text">%1$d/%2$d</string>
+    <string name="menu">Menu</string>
+    <string name="action_paste_level">Paste level</string>
+    <string name="action_copy_level">Copy level</string>
+    <string name="action_copy_solution">Copy solution</string>
+    <string name="checked">Checked</string>
+    <string name="preferences_solver_search_time_title_text">Solver search time</string>
+    <string-array name="preferences_solver_search_time_entry_text_array">
+        <item>1 minute</item>
+        <item>10 minutes (default)</item>
+        <item>1 hour</item>
+    </string-array>
+</resources>

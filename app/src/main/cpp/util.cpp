@@ -6,8 +6,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <sys/types.h>
-#include <sys/timeb.h>
+
+#ifndef LINUX
 #include <windows.h>
+#endif
 
 #include "util.h"
 #include "board.h"
@@ -232,7 +234,7 @@ int get_number_of_cores()
 #ifdef VISUAL_STUDIO
 	return 1;
 #endif
-
+#ifndef LINUX
 	SYSTEM_INFO sysinfo;
 	GetSystemInfo(&sysinfo);
 	processor_count = sysinfo.dwNumberOfProcessors;
@@ -253,7 +255,7 @@ int get_number_of_cores()
 
 	if ((processor_count >= 8) && (memory >= 16))
 		cores_num = 8;
-
+#endif
 	printf("using %d threads\n", cores_num);
 	return cores_num;
 }

@@ -298,6 +298,7 @@ void show_board(board b_in)
 	SetColorAndBackground(WHITE, BLACK);
 
 	printf("\n");
+	fflush(stdout);
 
 #ifdef THREADS
 	if (cores_num > 1) pthread_mutex_unlock(&show_board_mutex);

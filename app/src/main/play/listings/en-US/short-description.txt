@@ -1,0 +1,1 @@
+Festival Sokoban Solver - solve levels with the advanced FESS search algorithm

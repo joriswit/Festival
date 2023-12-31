@@ -1,0 +1,5 @@
+Festival is a Sokoban solver based on the FESS search algorithm (published in CoG 2020). Festival is the first reported program that solves all 90 levels of the XSokoban benchmark. It also scores nicely on other level sets.
+
+Festival for Android can integrate with any Sokoban clone that supports solver plug-ins, like Soko++.
+
+Festival for Android is based on Festival for Windows and other operating systems made by Yaron Shoham. See the official website: <a href="https://festival-solver.site/">https://festival-solver.site/</a>

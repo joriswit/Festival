@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_solver_search_time_entry_key_array">
+        <item>60</item>
+        <item>600</item>
+        <item>3600</item>
+    </string-array>
+</resources>
