@@ -11,8 +11,8 @@ android {
         applicationId = "nl.joriswit.festival"
         minSdk = 21
         targetSdk = 34
-        versionCode = 2
-        versionName = "3.1-android-v2"
+        versionCode = 3
+        versionName = "3.1-android-v3"
         resourceConfigurations += setOf("en-rUS")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
