@@ -106,7 +106,7 @@ class FestivalProcessOutputParser(private val inputStream: InputStream) {
             return Board.PACKED_BOX
         } else if (forgC == getTerminalColorCode(TerminalColor.DARKGRAY, 0)
             && backC == getTerminalColorCode(TerminalColor.MAGENTA, 1)
-            && character == "."
+            && character == " "
         ) {
             return Board.TARGET
         } else if (forgC == getTerminalColorCode(TerminalColor.LIGHTBLUE, 0)
