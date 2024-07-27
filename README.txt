@@ -1,7 +1,7 @@
 Festival Sokoban Solver 
 =======================
 Copyright 2019-2023 by Yaron Shoham
-Version: 3.1-android-v3
+Version: 3.1-android-v4
 Android port by Joris Wit
 
 Festival is a Sokoban solver based on the FESS search algorithm (published
